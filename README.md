@@ -48,7 +48,7 @@ Then you can use the following methods:
     () => someAsyncFunc(),  // the task you want to add to the queue
     {
       resolve: (result) => callbackFunc(result), // will be executed if tasks resolve
-      reject: (result) => callbackFunc(result), // will be executed if tasks reject
+      reject: (result) => callbackFunc(result), // will be executed if tasks reject after last retry
       clearIfReject: true, // clears all tasks from queue if tasks reject 
       retry: {
         count: 3, // determines the number of attempts
