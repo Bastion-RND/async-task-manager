@@ -12,7 +12,7 @@ This package is an asynchronous task manager for organizing the sequential execu
 
 ## Install
 
-This generator requires [node](https://nodejs.org) and [npm](https://npmjs.com).
+This package requires [node](https://nodejs.org) and [npm](https://npmjs.com).
 
 You can install it by running:
 
